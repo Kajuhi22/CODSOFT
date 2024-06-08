@@ -80,6 +80,12 @@ def play_again():
         choice = input("Do you want to play again? (y/n): ")
         if choice == 'n':
             return choice
+            
+        #MAIN NOTE
+ # The many times you choice is yes (y) that many times u have to say no (n)
+
+        else:
+            main()
 
 if __name__ == "__main__":
     main()
